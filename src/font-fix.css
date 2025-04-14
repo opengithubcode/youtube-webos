@@ -1,3 +1,6 @@
+/* Import Manrope font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
 /* LG TVs don't have a system font for math unicode symbols. */
 
 /* Source: https://fonts.googleapis.com/css2?family=Noto+Sans+Math&display=swap */
@@ -23,4 +26,59 @@
     U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF, U+0000-00FF, U+0131,
     U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329,
     U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Apply Manrope font to the UI */
+.ytaf-ui-container {
+  font-family: 'Manrope', sans-serif;
+}
+
+.ytaf-notification-container {
+  font-family: 'Manrope', sans-serif;
+}
+
+/* Apply Manrope font to YouTube TV UI elements */
+ytd-app {
+  font-family: 'Manrope', sans-serif !important;
+}
+
+ytd-masthead {
+  font-family: 'Manrope', sans-serif !important;
+}
+
+ytd-guide-renderer {
+  font-family: 'Manrope', sans-serif !important;
+}
+
+ytd-rich-grid-renderer {
+  font-family: 'Manrope', sans-serif !important;
+}
+
+ytd-video-renderer {
+  font-family: 'Manrope', sans-serif !important;
+}
+
+ytd-compact-video-renderer {
+  font-family: 'Manrope', sans-serif !important;
+}
+
+ytd-channel-name {
+  font-family: 'Manrope', sans-serif !important;
+}
+
+ytd-video-meta-block {
+  font-family: 'Manrope', sans-serif !important;
+}
+
+ytd-video-title {
+  font-family: 'Manrope', sans-serif !important;
+}
+
+ytd-video-description {
+  font-family: 'Manrope', sans-serif !important;
+}
+
+/* Apply to all text elements */
+* {
+  font-family: 'Manrope', sans-serif !important;
 }
